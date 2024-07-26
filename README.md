@@ -1,7 +1,6 @@
-Handwritten Mathematical Symbol Recognition Using Support Vector
-Machines and Neural Networks with Different Feature Extraction Methods
+##  Handwritten Mathematical Symbol Recognition Using Support Vector Machines and Neural Networks with Different Feature Extraction Methods
 
-**<u>Project Overview</u>**
+### **<u>Project Overview</u>**
 
 This project focuses on handwritten mathematical symbol recognition and
 classification using machine learning models. It involves developing
@@ -13,7 +12,7 @@ techniques: Histogram-Of-Oriented-Gradients (HoG), Local Binary Pattern
 (LBP), and raw image pixels. The project includes a total of six
 experiments combining these classifiers and feature extraction methods.
 
-**Feature Extraction Techniques**
+### **Feature Extraction Techniques**
 
 -   **Histogram-Of-Oriented-Gradients (HoG):** Captures shape and
     structure information by calculating the distribution of gradient
@@ -26,7 +25,7 @@ experiments combining these classifiers and feature extraction methods.
 -   **Raw Image Pixels**: The intensity values of individual pixels in
     an image.
 
-**Classifiers**
+### **Classifiers**
 
 -   **Support Vector Machines (SVM)**: A supervised learning model that
     analyses data for classification and regression analysis.
@@ -35,7 +34,7 @@ experiments combining these classifiers and feature extraction methods.
     by the way biological neural networks in the human brain process
     information.
 
-**<u>Datasets</u>**
+### **<u>Datasets</u>**
 
 The dataset consists of handwritten images of 10 different mathematical
 symbols. Each symbol is stored in a separate folder. The images have a
@@ -51,7 +50,7 @@ Note: For detailed dataset information please refer to section 2:
 Visualising and Exploring images from the
 DeepLearning\_Image\_Preprocessing.ipynb notebook and Project Report.
 
-**<u>Experimental Settings:</u>**
+### **<u>Experimental Settings:</u>**
 
 The table below provides details regarding the configuration of
 classifiers used in various experiments conducted for this image
@@ -60,7 +59,7 @@ classification task.
 <img src="./attachments/projectreadme/media/image2.png"
 style="width:6.41088in;height:10.43888in" />
 
-**<u>Experimental Results:</u>**
+### **<u>Experimental Results:</u>**
 
 The below table presents the highest accuracy score for each feature
 extraction technique and employed classifier model.
@@ -153,7 +152,7 @@ epochs, while accuracy rises and eventually stabilizes.
 Note: For detailed information on the confusion matrix please refer to
 LBP, HOG and RawPixels notebook’s Modelling (3rd) section.
 
-**<u>Models Summary:</u>**
+### **<u>Models Summary:</u>**
 
 HOG features outperform LBP features and Raw pixels in all combinations
 due to their ability to capture shape and structure information more
@@ -182,7 +181,7 @@ Note: Please refer to LBP, HOG and RawPixels notebook’s Modelling (3rd)
 section for a detailed description of the errors in classification and
 accuracy scores.
 
-**<u>Conclusion</u>**
+### **<u>Conclusion</u>**
 
 Based on the conducted experiments, it can be stated that HOG features
 provide a more distinctive representation of the shape and edge
@@ -192,7 +191,7 @@ characteristics of different symbols, making them more efficient for
 this classification task involving handwritten symbols compared to LBP
 and raw pixel values.
 
-**Prerequisites**
+### **Prerequisites**
 
 -   Python 3.7+
 
@@ -206,29 +205,7 @@ and raw pixel values.
 
 -   Matplotlib
 
-**Repository Structure**
-
-|-- notebooks
-
-| |-- DeepLearning\_Image\_Preprocessing.ipynb
-
-| |-- DeepLearning\_HOG\_Features.ipynb
-
-| |-- DeepLearning\_LBP\_Features.ipynb
-
-| |-- DeepLearning\_RawPixels\_Features.ipynb
-
-|-- report
-
-| |-- Project Report.pdf
-
-|-- dataset
-
-| |-- 10 directories with unique mathematical notations
-
-|-- requirements.txt
-
-|-- README.md
+### **Repository Structure**
 
 <img src="./attachments/projectreadme/media/image5.png"
 style="width:3.64341in;height:2.02229in"
